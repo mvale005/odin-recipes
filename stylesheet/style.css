@@ -15,7 +15,7 @@ body{
 }
 
 .recipe_list_container, .steps_container{
-text-align: center;
+text-align: left;
 width: 800px;
 }
 
@@ -23,6 +23,11 @@ width: 800px;
 text-align: left;
 }
 
+h3{
+    background-color: blue;
+    color: white;
+    
+}
 
 li{
     padding-bottom: 7px;
