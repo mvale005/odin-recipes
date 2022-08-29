@@ -1,22 +1,29 @@
 .title {
-    color: rgb(49, 52, 129);
+    color: rgb(24, 29, 168);
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     font-size: 52px;
+    padding-top: 25x;
+    padding-bottom: 50px;
 }
 
 body{
-    background-color: rgb(191, 192, 221);
-   text-align: center;
+    background-color: rgb(172, 214, 238);
+    text-align: left;
+    color: rgb(24, 29, 168);
 
 }
 
 .recipe_list_container, .steps_container{
 text-align: center;
+width: 800px;
 }
 
 .recipe_ul, .steps_ol{
-display: inline-block;
 text-align: left;
 }
 
+
+li{
+    padding-bottom: 7px;
+}
